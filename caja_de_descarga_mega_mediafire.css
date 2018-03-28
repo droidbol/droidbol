@@ -1,0 +1,134 @@
+.containerr {
+	margin: 2em auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cardd {
+	width: 275px;
+	height: auto;
+border-radius: 30px;
+margin-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+	background: #F44336;
+	transition: 0.4s ease-in-out;
+	box-shadow: 0px 3px 10px 0px #afff00;
+}
+
+.cardd:hover{transform: translateY(-25px)}
+
+.cardd::after {
+	top: 20px;
+	left: 50%;
+	font-weight: 800;
+	width: 200px;
+  padding: 10px;
+font-size: 22PX;
+	color: #ff0000;
+	content: 'MEGA';
+	position: absolute;
+	text-align: center;
+	background: #fff;
+	transform: rotate(45deg);
+  box-shadow: 0px 3px 10px 0px #fff;
+
+}
+
+
+.second-ca {
+background:#2d75cc;
+}
+
+.second-ca::after {
+	content: ' MEDIAFIRE';
+color: #2d75cc;
+	background:#fff;
+font-size: 17PX;
+margin-top: auto;
+
+}
+
+
+
+
+.cardd img {
+	padding: 10px 10px 10px 10px;
+	width: 150px;
+display: left;
+border-radius: 30px;
+box-shadow: 0 3px 20px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+/* 	height: 70px; */
+}
+
+.cardd h2 {
+	font-weight: 100;
+	padding-left: 20px;
+	padding-bottom: 0;
+	color: #FDDC08;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.cardd p {
+	color: #E1E0E1;
+	padding: 0 20px 20px 20px;
+}
+
+/* info plan */
+.info-plan {
+	padding: 20px;
+	background: #242424;
+}
+
+.cardd ul li {
+	left: -10px;
+	list-style: none;
+	font-size: 16px;
+	font-weight: 100;
+	position: relative;
+	margin-bottom: 15px;
+}
+.cardd ul li::before {
+	content: "\f00c";
+	left: -30px;
+	color: gold;
+	font-size: 22px;
+	position: absolute;
+	font-family: FontAwesome;
+}
+
+
+.cardd button {
+	border: 0;
+	width: 100%;
+	color: #FDDC48;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 10px;
+	padding: 15px 10px;
+	background: rgb(29, 29, 30);
+	box-shadow: 0px 5px 10px 0px rgb(28, 29, 29);
+	font-family: 'Ubuntu', sans-serif;
+	transition: background 0.3s linear; 
+
+}
+
+.cardd button:hover {
+ background: #A4CA39;
+ color: #fff;
+ box-shadow: inset 0 0 0 3px #13191C;
+}
+
+.id-app-title {
+font-weight: bold;
+margin-top: 10px;
+font-size: 22PX;
+LINE-HEIGHT:25px;
+padding-left: 0px;
+text-align: left;
+padding-bottom: 0;
+color: #FDDC48;
+font-family: 'Ubuntu', sans-serif;
+}
